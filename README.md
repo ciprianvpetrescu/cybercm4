@@ -60,19 +60,17 @@ Out-of-tree Realtek RTL88xxAU DKMS drivers compiled for monitor mode and packet 
 
 ## Getting started
 
-1. Assemble per the hardware table (see project report for full build details).
+1. Assemble per the hardware table (see the project report for full build details).
 2. Flash multi-boot SD/eMMC: Raspberry Pi OS, Kali ARM64, DragonOS Pi64.
 3. Compile and install the RTL88xxAU DKMS driver.
-4. Launch the PyQt touchscreen launcher (see `launcher/`).
-5. Test only on your own lab network — see the legal note above.
+4. Test only on your own lab network — see the legal note above.
 
-## Repository layout
+## Status
 
-```
-launcher/     Python/PyQt touchscreen launcher
-docs/         Build notes and configuration guides
-report/       Full project report (redacted) — optional
-```
+This repository is the project's public documentation and results showcase. The original
+launcher source code was not preserved — the prototype hardware was later repurposed — so
+the emphasis here is on the build, the tests and the results, all detailed below and in the
+project report.
 
 ## Project report
 
